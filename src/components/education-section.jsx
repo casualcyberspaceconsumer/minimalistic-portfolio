@@ -12,7 +12,15 @@ const education = [
         highlights: ["Ranked 1st in Promotion", "Full-Stack Development", "System Design", "Project Management"],
     },
     {
-        period: "2022 — 2023",
+        period: "2021 — 2023",
+        degree: "University Studies in Physical and Chemical Sciences",
+        school: "Chouaib Doukkali University - Faculty of Sciences, El Jadida",
+        description:
+            "Completed two years of rigorous scientific education, focusing on Physics and General Chemistry. Built a strong analytical framework through advanced mathematical modeling and structured problem-solving.",
+        highlights: ["Advanced Calculus", "Analytical Chemistry", "Scientific Methodology", "Logical Reasoning"],
+    },
+    {
+        period: "2020 — 2021",
         degree: "Baccalaureate in Physical Sciences",
         school: "Nouaceur, Morocco",
         description:
