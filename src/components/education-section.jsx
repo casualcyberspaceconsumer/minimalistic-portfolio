@@ -62,7 +62,7 @@ export function EducationSection() {
     const [hoveredCert, setHoveredCert] = useState(null)
 
     return (
-        <section id="education" className="relative py-32 px-6 bg-secondary/30" ref={ref}>
+        <section id="background" className="relative py-32 px-6 bg-secondary/30" ref={ref}>
             <div className="mx-auto max-w-7xl">
                 <motion.div
                     initial={{ opacity: 0, y: 40 }}
@@ -81,12 +81,7 @@ export function EducationSection() {
                         animate={isInView ? { opacity: 1, x: 0 } : {}}
                         transition={{ duration: 0.8, delay: 0.1 }}
                     >
-                        <div className="mb-8 flex items-center gap-3">
-                            <div className="inline-flex rounded-xl bg-accent/10 p-2.5">
-                                <GraduationCap className="h-5 w-5 text-accent" />
-                            </div>
-                            <h3 className="font-serif text-2xl font-medium">Education</h3>
-                        </div>
+                        <span className="mb-4 inline-block text-sm font-medium uppercase tracking-widest text-accent">Education</span>
 
                         <div className="space-y-8">
                             {education.map((edu, i) => (
@@ -136,12 +131,7 @@ export function EducationSection() {
                         animate={isInView ? { opacity: 1, x: 0 } : {}}
                         transition={{ duration: 0.8, delay: 0.2 }}
                     >
-                        <div className="mb-8 flex items-center gap-3">
-                            <div className="inline-flex rounded-xl bg-accent/10 p-2.5">
-                                <Award className="h-5 w-5 text-accent" />
-                            </div>
-                            <h3 className="font-serif text-2xl font-medium">Certifications</h3>
-                        </div>
+                        <span className="mb-4 inline-block text-sm font-medium uppercase tracking-widest text-accent">Certifications</span>
 
                         <div className="space-y-4">
                             {certifications.map((cert, i) => (
