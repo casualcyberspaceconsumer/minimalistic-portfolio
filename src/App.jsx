@@ -11,7 +11,7 @@ import { Preloader } from '@/components/preloader'
 
 export default function App() {
     return (
-        <ThemeProvider defaultTheme="dark">
+        <ThemeProvider defaultTheme="light">
             <div className="font-sans antialiased">
                 <Preloader />
                 <Navigation />
