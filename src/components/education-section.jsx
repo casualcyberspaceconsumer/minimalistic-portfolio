@@ -20,7 +20,7 @@ const education = [
         highlights: ["Advanced Calculus", "Analytical Chemistry", "Scientific Methodology", "Logical Reasoning"],
     },
     {
-        period: "2020 — 2021",
+        period: "2021",
         degree: "Baccalaureate in Physical Sciences",
         school: "Nouaceur, Morocco",
         description:
