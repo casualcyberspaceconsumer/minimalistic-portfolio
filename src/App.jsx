@@ -12,7 +12,7 @@ import { Preloader } from '@/components/preloader'
 export default function App() {
     return (
         <ThemeProvider defaultTheme="light">
-            <div className="font-sans antialiased">
+            <div className="font-sans antialiased overflow-x-hidden">
                 <Preloader />
                 <Navigation />
                 <main className="relative">
